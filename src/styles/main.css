@@ -1,43 +1,50 @@
 @tailwind base;
 @tailwind components;
 
-.markdown h1,
-.markdown h2,
-.markdown h3,
- {
+h1,
+h2,
+h3 {
   @apply font-bold;
 }
 
-.markdown h1 {
-  @apply text-2xl lg:text-4xl font-bold;
+h1 {
+  @apply text-2xl lg:text-4xl;
 }
 
-.markdown h2 {
-  @apply text-xl lg:text-3xl font-bold mt-8 mb-4;
+h2 {
+  @apply text-xl lg:text-3xl;
 }
 
-.markdown h3 {
-  @apply text-lg lg:text-2xl font-bold mt-6 mb-2;
+h3 {
+  @apply text-lg lg:text-2xl;
 }
 
-.markdown ul {
+ul {
   @apply mt-2;
 }
 
-.markdown li {
-  @apply list-disc mb-1; 
+li {
+  @apply list-disc mb-1;
 }
 
-.markdown a {
+.link {
   @apply underline text-blue-800;
-}
-
-.markdown a:hover {
-  @apply underline;
 }
 
 .portfolio-img img {
   @apply w-64;
+}
+
+.button {
+  @apply px-4 py-1 m-2 rounded no-underline inline-block;
+}
+
+.button-green {
+  @apply bg-green-200;
+}
+
+.button-green:hover {
+  @apply bg-green-300;
 }
 
 @tailwind utilities;

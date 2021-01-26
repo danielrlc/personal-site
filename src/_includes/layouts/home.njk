@@ -2,11 +2,12 @@
 <html lang="en">
   <head>
     <title>{{ metaTitle }}</title>
-     <link rel="stylesheet" type="text/css" href="/assets/main.css" />
+    <link rel="stylesheet" type="text/css" href="/assets/main.css"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
   </head>
   <body>
     {% include "../components/navigation.njk" %}
-    <main class="p-12 markdown portfolio-img">
+    <main class="py-12 px-4 lg:px-0 mx-auto max-w-2xl">
       <h1 class="text-3xl mb-8">{{pageTitle}}</h1>
       {{ content | safe }}
     </main>
