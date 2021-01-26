@@ -1,13 +1,13 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <title>{{ title }}</title>
+    <title>{{ metaTitle }}</title>
      <link rel="stylesheet" type="text/css" href="/assets/main.css" />
   </head>
   <body>
     {% include "../components/navigation.njk" %}
     <main class="p-12 markdown portfolio-img">
-      <h1 class="text-3xl mb-8">{{title}}</h1>
+      <h1 class="text-3xl mb-8">{{pageTitle}}</h1>
       {{ content | safe }}
     </main>
     <script src="/assets/main.js"></script>
