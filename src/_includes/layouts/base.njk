@@ -2,11 +2,11 @@
 <html lang="en">
   <head>
     <title>{{ title }}</title>
-     <link rel="stylesheet" type="text/css" href="/assets/main.css" />
+    <link rel="stylesheet" type="text/css" href="/assets/main.css"/>
   </head>
   <body>
     {% include "../components/navigation.njk" %}
-    <main class="p-12 markdown portfolio-img">
+    <main class="py-12 px-4 lg:px-0 mx-auto max-w-xl">
       <h1 class="text-3xl mb-8">{{title}}</h1>
       {{ content | safe }}
     </main>
