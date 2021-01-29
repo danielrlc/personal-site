@@ -1,20 +1,24 @@
 {
     "items": [
         {
-            "name": "test@example.com",
-            "link": "mailto:test@example.com"
+            "name": "Email: daniel at danielrlc dot com",
+            "link": "mailto:daniel@danielrlc.com"
         },
         {
-            "name": "Twitter",
-            "link": "https://twitter.com/…"
+            "name": "LinkedIn",
+            "link": "https://www.linkedin.com/in/daniel-clarke-997302109/"
         },
         {
             "name": "GitHub",
-            "link": "https://github.com/…"
+            "link": "https://github.com/danielrlc"
         },
         {
-            "name": "CodePen",
-            "link": "https://codepen.io/…"
+            "name": "GitLab",
+            "link": "https://gitlab.com/danielrlc"
+        },
+        {
+            "name": "Codewars",
+            "link": "https://www.codewars.com/users/danielrlc"
         }
     ]
 }

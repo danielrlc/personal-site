@@ -1,0 +1,14 @@
+---
+title: Let's connect!
+layout: layouts/base.njk
+permalink: /lets-connect/
+eleventyNavigation:
+  key: Let's connect
+  order: 1
+---
+
+{% for item in contact.items %}
+  <p class="mb-2">
+    <a href="{{ item.link }}" class="link">{{ item.name }}</a>
+  </p>
+{% endfor %}
